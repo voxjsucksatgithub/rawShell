@@ -1,0 +1,26 @@
+{
+    "help": {
+        "command_info": "Gives that text.",
+        "args": null
+    },
+    "edituser": {
+        "command_info": "Changes the username of shell.",
+        "args": "New username of the shell. (it will have @shell after your username!)"
+    },
+    "exit": {
+        "command_info": "Exit the shell.",
+        "args": null
+    },
+    "print": {
+        "command_info": "Prints that you wrote.",
+        "args": null
+    },
+    "bye": {
+        "command_info": "Says bye, {username}.",
+        "args": null
+    },
+    "hi": {
+        "command_info": "Says hi, {username}.",
+        "args": null
+    }
+}
