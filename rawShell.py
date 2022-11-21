@@ -10,7 +10,7 @@ commands = json.loads(open('commands.json').read())
 def clear():
   os.system('clear' if os.name != "nt" else "cls")
 def main():
-  print(f"{Fore.CYAN}This is rawShell v0.0.1 (Based on Python)")
+  print(f"{Fore.CYAN}This is rawShell v2.0.4 (Based on Python)")
   username = "user"
   print(f"{Fore.RED}Please, run this app as Terminal   PowerShell Python. Colors are not working without it! & Hello, {username}!")
   init(True if os.system == "nt" else False)
